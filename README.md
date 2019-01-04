@@ -5,7 +5,7 @@ Alexander Chepurnoy, Charalampos Papamanthou, Yupeng Zhang
 VCS relies on the following libraries
 * ate-pairing for bilinear groups. https://github.com/herumi/ate-pairing.
 * xbyak, required by ate-pairing https://github.com/herumi/xbyak.
-* gmp librariy for big numbers big numbers. ```$ sudo apt-get install libgmp3-dev```
+* gmp for big numbers. ```$ sudo apt-get install libgmp3-dev```
 * Cmake
 
 The default cmake file assumes ate-pairing is located in the same directory. To compile the code, run ```$ cmake .```, then ```$ make```. 
