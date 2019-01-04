@@ -8,8 +8,13 @@ VCS relies on the following libraries
 * gmp for big numbers. ```$ sudo apt-get install libgmp3-dev```
 * Cmake
 
-The default cmake file assumes ate-pairing is located in the same directory. To compile the code, run ```$ cmake .```, then ```$ make```. 
-To run the code, execute ```$ ./test [number]```, where 2^[number] is the size of the vector. test.cpp runs key generation, stores the keys in files, initializes the vector to 0, perform 100 updates (update value, digest, proof) and verifies the proofs.
+The default cmake file assumes ate-pairing is located in the same directory. 
+
+To compile the code, run ```$ cmake .```, then ```$ make```. 
+
+To run the code, execute ```$ ./test [number]```, where 2^[number] specifies the size of the vector. 
+
+test.cpp runs key generation, stores the keys in files, initializes the vector to 0, perform 100 updates and verifies the updated proofs.
 
 ## References
 
