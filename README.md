@@ -1,4 +1,5 @@
-# Vector Commitment Scheme
+# Vector commitment scheme with efficient updates
+This is an implementation of the vector commitment scheme that is described in Section 5 of the paper "" 
 ## Authors
 Alexander Chepurnoy, Charalampos Papamanthou, Yupeng Zhang
 ## Build Instructions
